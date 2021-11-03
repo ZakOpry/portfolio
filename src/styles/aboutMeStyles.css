@@ -1,0 +1,67 @@
+.aboutMeMainDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topPicDiv{
+    width: 100%;
+    height: 325px;
+    
+    
+}
+
+.topPicDiv img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.aboutMeMidPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePic{
+    margin-top: 5.5px;
+    height: 325px;
+}
+
+.infoDiv{
+   
+    margin-top: 15px;
+    width: 45%;
+    margin-bottom: 30px;
+    display: flex;
+    border-bottom: solid black 1px;
+}
+
+.aLittleBit{
+    font-size: 48px;
+}
+
+.infoBodyDiv h3{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.infoBodyDiv p{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+.skillsDiv{
+    width: 45%;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+
+.openToWork{
+    width: 45%;
+    text-align: center;
+}

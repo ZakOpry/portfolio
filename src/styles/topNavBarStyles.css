@@ -1,0 +1,36 @@
+.topNavBar{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    height: 80px;
+    display: flex;
+}
+
+.navButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navIcons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.navBarIcons{
+font-size: 35px;
+color: white;
+margin-right: 10px;
+text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
