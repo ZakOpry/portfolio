@@ -5,6 +5,8 @@
 
 }
 
+
+
 .topPicDiv{
     width: 100%;
     height: 325px;
@@ -50,6 +52,7 @@
 
 .aLittleBit{
     font-size: 48px;
+    text-align: center;
 }
 
 .infoBodyDiv h3{
