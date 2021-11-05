@@ -13,10 +13,10 @@ export default function InstagramClone() {
         </div>
         <div className='bodyDiv'>
         <p>
-                "Instagram Clone" is a Front-End Project I developed as Part of a Mock Interview Take Home Assignment. 
-                I Used React Functional Components in Addition to Styled Components and CSS. Some Features of this Project
-                Include a Fixed Nav Bar and CSS Grid Display. Images were put Into an Array of Objects then Mapped Over and Passed Down 
-                as Props Into the Child Component thus Rendering Each Image Div on the Grid.   
+                "Instagram Clone" is a front-end project I developed as part of a mock interview take home assignment. 
+                I used React functional components in addition to styled components and CSS. Some features of this project
+                include a fixed nav bar and CSS grid display. Images were put into an array of objects then mapped over and passed down 
+                as props into the child component thus rendering each image div on the grid.   
               </p>
              
               <p className='links'>Website: <a href='https://zakopry.github.io/instagram-clone/' target="blank">Instagram Clone</a></p>

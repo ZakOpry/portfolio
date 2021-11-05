@@ -1,0 +1,38 @@
+.mainContactDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.UpperPicDiv{
+width: 100%;
+height: 325px;
+
+}
+
+.UpperPicDiv img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mainMiddleDiv{
+    height: auto;
+    width: 400px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 80px;
+    align-self: center;
+    text-align: center;
+}
+
+.ContactMe{
+    width: 100%;
+    text-align: center;
+}
+
+.mainMiddleDiv a{
+    text-decoration: none;
+    color: blue;
+}
+

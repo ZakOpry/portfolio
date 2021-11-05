@@ -1,0 +1,26 @@
+.mainMobileNavBarDiv{
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.menuIcon{
+    color: white;
+    font-size: 45px;
+}
+
+.menuDiv{
+    height: 100%;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menuDiv:hover{
+    background-color: rgb(81, 82, 87);
+}

@@ -1,7 +1,6 @@
 import './AppStyles.css'
 import AboutMe from './components/AboutMe';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom'
-import SideBar from './components/SideBar';
 import TopNavBar from './components/TopNavBar';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
@@ -9,6 +8,8 @@ import YouBrew from './components/YouBrew';
 import InstagramClone from './components/InstagramClone';
 import GuitarMaster from './components/GuitarMaster';
 import Portfolio from './components/Portfolio.js'
+import HamburgerNavBar from './components/HamburgerNavBar';
+import Media from 'react-media'
 
 function App() {
   return (
@@ -16,7 +17,15 @@ function App() {
 <Switch>
     
     <>
-      <TopNavBar/>
+
+    <Media query="(min-width: 638px)">
+      {matches => {
+        return matches ? <TopNavBar/> : <HamburgerNavBar/>
+      }}
+      </Media>
+
+
+      {/* <TopNavBar/> */}
 
       <Route exact path='/'>
      <AboutMe/> 

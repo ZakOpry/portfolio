@@ -13,11 +13,11 @@ export default function GuitarMaster() {
         </div>
         <div className='bodyDiv'>
         <p>
-                "Guitar Master" was my First Complete Front-End Project. As a Guitar Player Myself, I Wanted to Create a Site that Guitarists Could Used
-                to Find Guitar Tabs and Learn their Favorite Songs. By Using a "Songsterr" API, I was Able to Use DOM Manipulation and Give Users the Ability
-                to Search Through Thousands of Tabs and Pull up Links to them that Take Users to the Tab on Songsterr.com. The Site Fetches Data from the API 
-                by Either Artist Name or Song Name and Renders Out the Results in a Scroll Box. I Also Included a "Learning Page" were I Give my Own Lesson on Reading
-                and Using Guitar Tabs From Scratch. The Site is Also Completely Mobile Responsive.   
+                "Guitar Master" was my first complete front-end project. As a guitar player myself, I wanted to create a site that guitarists could used
+                to find guitar tabs and learn their favorite songs. By using a "Songsterr" API, I was able to use DOM manipulation and give users the ability
+                to search through thousands of tabs and pull up links to them that take users to the tab on Songsterr.com. The site fetches data from the API 
+                by either artist name or song name and renders out the results in a scroll box. I also included a "Learning Page" were I give my own lesson on reading
+                and using guitar tabs from scratch. The site is also completely mobile responsive.   
               </p>
              
               <p className='links'>Website: <a href='https://zakopry.github.io/front-end-project/index.html' target="blank">Guitar Master</a></p>

@@ -15,6 +15,7 @@
     margin-right: 20px;
 }
 
+
 .navIcons{
     height: 100%;
     display: flex;
@@ -34,3 +35,43 @@ text-decoration: none;
 .link{
     text-decoration: none;
 }
+
+.link:hover{
+    background-color: rgb(112, 112, 112);
+}
+
+.dropDown{
+    height: auto;
+    width: 100%;
+    background-color:rgb(58, 58, 58);
+    position: fixed;
+    margin-top: 75.3px;
+    border-top: solid 1px rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navBarButton{
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navBarButton:hover{
+    background-color: rgb(112, 112, 112);
+}
+
+.navBarButton h3{
+    margin: 5px;
+}
+
+#dropDownProjects{
+    border-top: solid .5px whitesmoke;
+}
+
+#dropDownContact{
+    border-top: whitesmoke solid .5px;
+}
+

@@ -27,6 +27,7 @@
 .profilePic{
     margin-top: 5.5px;
     height: 325px;
+    width: 250px;
 }
 
 .infoDiv{
@@ -35,8 +36,17 @@
     width: 45%;
     margin-bottom: 30px;
     display: flex;
+    flex-direction: column;
     border-bottom: solid black 1px;
+    align-items: center;
 }
+
+/* @media screen and (max-width : 637px){
+    .infoDiv{
+        flex-direction: column;
+        
+    }
+} */
 
 .aLittleBit{
     font-size: 48px;
@@ -45,8 +55,9 @@
 .infoBodyDiv h3{
     font-size: 30px;
     margin-left: 10px;
-    margin-top: 0;
+    margin-top: 40px;
     margin-bottom: 3px;
+    text-align: center;
 }
 
 .infoBodyDiv p{
