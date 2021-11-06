@@ -11,7 +11,7 @@ export default function Contact() {
             <p>LinkedIn: <a href ="https://www.linkedin.com/in/zak-o-pry-a461731b4">ZakOpry</a></p>
             <p>GitHub: <a href = "https://github.com/ZakOpry">GitHub</a></p>
             <p>Email: <a href = "mailto:" >ZakOpry</a></p>
-            <p>I look forward to getting back with you as soon as I can!</p>
+            
 
             </div>
 
