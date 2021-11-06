@@ -6,10 +6,10 @@ export default function Portfolio() {
     return (
         <div className='portfolioDiv'>
            
-        <div className='bodyAndPicDiv'>
+        <div className='portfolioBodyAndPicDiv'>
              <h1>Portfolio</h1>
-        <div className='picDiv'>
-         <img className='pic' src={image}/>
+        <div className='portfolioPicDiv'>
+         <img className='portfolioPic' src={image}/>
         </div>
         <div className='bodyDiv'>
         <p>

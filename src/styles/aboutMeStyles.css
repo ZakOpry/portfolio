@@ -43,12 +43,12 @@
     align-items: center;
 }
 
-/* @media screen and (max-width : 637px){
+@media screen and (max-width : 637px){
     .infoDiv{
-        flex-direction: column;
+        width: 70%;
         
     }
-} */
+}
 
 .aLittleBit{
     font-size: 48px;

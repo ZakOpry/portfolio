@@ -6,12 +6,12 @@ export default function InstagramClone() {
     return (
         <div className='instaGramCloneDiv'>
            
-        <div className='bodyAndPicDiv'>
-             <h1>Instagram Clone</h1>
-        <div className='picDiv'>
+        <div className='IGbodyAndPicDiv'>
+             <h1 className="instagramCloneHeader">Instagram Clone</h1>
+        <div className='instaPicDiv'>
          <img className='pic' src={insta}/>
         </div>
-        <div className='bodyDiv'>
+        <div className='instagramClonebodyDiv'>
         <p>
                 "Instagram Clone" is a front-end project I developed as part of a mock interview take home assignment. 
                 I used React functional components in addition to styled components and CSS. Some features of this project

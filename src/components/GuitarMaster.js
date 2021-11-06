@@ -6,12 +6,12 @@ export default function GuitarMaster() {
     return (
         <div className='guitarMasterDiv'>
            
-        <div className='bodyAndPicDiv'>
-             <h1>Guitar Master</h1>
-        <div className='picDiv'>
-         <img className='pic' src={guitar}/>
+        <div className='GuitarBodyAndPicDiv'>
+             <h1 className="guitarMasterHeader">Guitar Master</h1>
+        <div className='GMpicDiv'>
+         <img className='GMpic' src={guitar}/>
         </div>
-        <div className='bodyDiv'>
+        <div className='guitarMasterbodyDiv'>
         <p>
                 "Guitar Master" was my first complete front-end project. As a guitar player myself, I wanted to create a site that guitarists could used
                 to find guitar tabs and learn their favorite songs. By using a "Songsterr" API, I was able to use DOM manipulation and give users the ability

@@ -7,7 +7,11 @@
     align-items: center;
     }
     
-    .bodyAndPicDiv{
+    .portfolioHeader{
+        text-align: center;
+    }
+
+    .portfolioBodyAndPicDiv{
     background-color: rgb(236, 236, 236);
     margin-top: 50px;
     width: 70%;
@@ -15,6 +19,12 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 637px) {
+        .portfolioBodyAndPicDiv{
+            margin-top: 120px;
+        }
     }
     
     .bodyDiv{
@@ -25,12 +35,23 @@
         text-align: center;
     }
     
-    .picDiv{
+    .portfolioPicDiv{
         width: 60%;
         margin-top: 30px;
     }
+
+    @media screen and (max-width: 517px) {
+        .portfolioPicDiv{ 
+            width: 85%;
+            margin-top: 15px;
+            
+        }
+        .bodyDiv{
+            margin-top: 15px;
+        }
+    }
     
-    .pic{
+    .portfolioPic{
         object-fit: cover;
         height: 100%;
         width: 100%;
