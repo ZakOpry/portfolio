@@ -1,40 +1,57 @@
-import React from 'react'
-import youBrew from '../images/youBrew.png'
-import instaClone from '../images/instagramClone.png'
-import guitar from '../images/guitarMaster.png'
-import portPic from '../images/portfolio.png'
-import { Link } from 'react-router-dom'
+import React from "react";
+import youBrew from "../images/youBrew.png";
+import instaClone from "../images/instagramClone.png";
+import guitar from "../images/guitarMaster.png";
+import portPic from "../images/portfolio.png";
+import lunar from "../images/lunarExchange.png";
+import { Link } from "react-router-dom";
 
 export default function ProjectCards() {
-    return (
-        <>
-        <div className="projectCardDiv">
+  return (
+    <>
+      <div className="projectCardDiv">
+        <h1>Lunar Exchange</h1>
+        <img className="lunarExchangePic" src={lunar} />
+        <p>A full-stack React project</p>
+        <Link to="/lunarExchange">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
+
+      <div className="projectCardDiv">
         <h1>YouBrew</h1>
-        <img className="youBrewPic"src={youBrew}/>
+        <img className="youBrewPic" src={youBrew} />
         <p>A complete front-end React project</p>
-        <Link to="/youbrew"><button className='seeMoreButton'>See More</button></Link>
-        </div>
+        <Link to="/youbrew">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
 
-        <div className="projectCardDiv">
+      <div className="projectCardDiv">
         <h1>Instagram Clone</h1>
-        <img className="instaClonePic" src={instaClone}/>
+        <img className="instaClonePic" src={instaClone} />
         <p>An Instagram Page React Clone</p>
-        <Link to='/instagramclone'><button className='seeMoreButton'>See More</button></Link>
-        </div>
+        <Link to="/instagramclone">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
 
-        <div className="projectCardDiv">
+      <div className="projectCardDiv">
         <h1>Guitar Master</h1>
-        <img className="guitarMasterPic" src={guitar}/>
+        <img className="guitarMasterPic" src={guitar} />
         <p>A HTML, JS, and CSS front-end site</p>
-        <Link to="/guitarmaster"><button className='seeMoreButton'>See More</button></Link>
-        </div>
-        <div className="projectCardDiv">
+        <Link to="/guitarmaster">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
+      <div className="projectCardDiv">
         <h1>Portfolio</h1>
-        <img className='portfolioProjectPic' src={portPic}/>
+        <img className="portfolioProjectPic" src={portPic} />
         <p>A React front-end project</p>
-        <Link to='/portfolio'><button className='seeMoreButton'>See More</button></Link>
-        </div>
-
-        </>
-    )
+        <Link to="/portfolio">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
+    </>
+  );
 }

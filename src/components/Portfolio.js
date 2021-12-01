@@ -7,7 +7,7 @@ export default function Portfolio() {
         <div className='portfolioDiv'>
            
         <div className='portfolioBodyAndPicDiv'>
-             <h1>Portfolio</h1>
+             <h1 className="portfolioHeader">Portfolio</h1>
         <div className='portfolioPicDiv'>
          <img className='portfolioPic' src={image}/>
         </div>

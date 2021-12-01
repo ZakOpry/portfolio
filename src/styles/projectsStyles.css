@@ -1,69 +1,75 @@
-.mainProjectsDiv{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.mainProjectsDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.myProjects{
-    font-size: 40px;
+.myProjects {
+  font-size: 40px;
 }
 
-.headerDiv{
-    width: 100%;
-    text-align: center;
+.headerDiv {
+  width: 100%;
+  text-align: center;
 }
 
-.projectCardDiv{
-    background-color: rgb(240, 240, 240);
-    border: rgb(218, 218, 218) solid 1px;
-    border-radius: 5px;
-    width: 350px;
-    height: 450px;
-    margin: 8px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.projectCardDiv {
+  background-color: rgb(240, 240, 240);
+  border: rgb(218, 218, 218) solid 1px;
+  border-radius: 5px;
+  width: 350px;
+  height: 450px;
+  margin: 8px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.youBrewPic{
-    width: 90%;
-    height: 60%;
-    object-fit: cover;
+.lunarExchangePic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
 }
 
-.instaClonePic{
-    width: 90%;
-    height: 60%;
-    object-fit: cover;
+.youBrewPic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
 }
 
-.guitarMasterPic{
-    width: 90%;
-    height: 60%;
-    object-fit: cover;
+.instaClonePic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
 }
 
-.portfolioProjectPic{
-    width: 90%;
-    height: 60%;
-    object-fit: cover;
+.guitarMasterPic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
 }
 
-.seeMoreButton{
-    background-color: rgb(31, 45, 236);
-    border: none;
-    border-radius: 18px;
-    padding: 5px;
-    color: white;
-    width: 85px;
+.portfolioProjectPic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.seeMoreButton {
+  background-color: rgb(31, 45, 236);
+  border: none;
+  border-radius: 18px;
+  padding: 5px;
+  color: white;
+  width: 85px;
 }
 
 .seeMoreButton:hover {
-    background-color: rgb(72, 84, 255);
+  background-color: rgb(72, 84, 255);
 }
 
 .seeMoreButton:active {
-    padding: 8px;
+  padding: 8px;
 }
