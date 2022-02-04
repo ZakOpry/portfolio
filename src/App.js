@@ -11,6 +11,7 @@ import Portfolio from "./components/Portfolio.js";
 import HamburgerNavBar from "./components/HamburgerNavBar";
 import Media from "react-media";
 import LunarExchange from "./components/LunarExchange";
+import TugFilm from "./components/TugFilm";
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
 
           <Route path="/lunarExchange">
             <LunarExchange />
+          </Route>
+
+          <Route path="/tugFilms">
+            <TugFilm />
           </Route>
 
           <Route path="/youbrew">

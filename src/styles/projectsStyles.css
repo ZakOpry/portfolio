@@ -33,6 +33,12 @@
   object-fit: cover;
 }
 
+.tugFilmPic {
+  width: 90%;
+  height: 60%;
+  object-fit: cover;
+}
+
 .youBrewPic {
   width: 90%;
   height: 60%;

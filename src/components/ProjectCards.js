@@ -4,6 +4,7 @@ import instaClone from "../images/instagramClone.png";
 import guitar from "../images/guitarMaster.png";
 import portPic from "../images/portfolio.png";
 import lunar from "../images/lunarExchange.png";
+import tug from "../images/tugFilms.png";
 import { Link } from "react-router-dom";
 
 export default function ProjectCards() {
@@ -14,6 +15,15 @@ export default function ProjectCards() {
         <img className="lunarExchangePic" src={lunar} />
         <p>A full-stack React project</p>
         <Link to="/lunarExchange">
+          <button className="seeMoreButton">See More</button>
+        </Link>
+      </div>
+
+      <div className="projectCardDiv">
+        <h1>Tug Films</h1>
+        <img className="tugFilmPic" src={tug} />
+        <p>A React front-end project</p>
+        <Link to="/tugFilms">
           <button className="seeMoreButton">See More</button>
         </Link>
       </div>
