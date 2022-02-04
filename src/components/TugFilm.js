@@ -14,7 +14,7 @@ export default function TugFilm() {
           <p>
             "Tug Films" is a front-end React website that is currently a work in
             progress for a client. This website will serve as my clients
-            personal portfolio for his wedding videography buisness. The site
+            personal portfolio for his wedding videography business. The site
             features a looping MP4 video playing in the background of the header
             that was taken by my client. The site also features price cards that
             get mapped over an array of price data provided by my client.
